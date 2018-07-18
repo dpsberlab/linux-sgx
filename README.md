@@ -42,9 +42,9 @@ Build the Intel(R) SGX SDK and Intel(R) SGX PSW Package
   * SUSE Linux Enterprise Server 12 64bits
 
 - Use the following command(s) to install the required tools to build the Intel(R) SGX SDK:  
-  * On Ubuntu 16.04:
+  * On Ubuntu 18.04 LTS (Bionic):
   ```
-    $ sudo apt-get install build-essential ocaml automake autoconf libtool wget python
+    $ sudo apt-get install build-essential ocaml ocamlbuild automake autoconf libtool wget python
   ```
   * On Red Hat Enterprise Linux 7.4 and CentOS 7.4:
   ```
